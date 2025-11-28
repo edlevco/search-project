@@ -1,3 +1,10 @@
+# Author and Acknowledgement
+Author: Eddie Levcovich
+
+Acknowledgment:
+Gradio for its library
+ChatGPT for assistance with debugging and documentation
+
 # Link to Hugging Face
 https://huggingface.co/spaces/Edlevco/BinarySearchProjectCISC121
 
@@ -51,6 +58,13 @@ It does that process until the target number is found or until the left pointer 
 
 Output:
 The algorithm will output the index of the target number if it is found, or -1 if the target number is not in the sorted array
+
+# Steps to Run:
+1. Make or generate a comma-separated array with only ints and commas
+2. Input your Target value (Int)
+3. Press Start Search
+4. Try to click on the correct step (left/right/found)
+5. The algorithm will give you an explanation if you are correct or not
 
 <img width="1371" height="908" alt="Screenshot 2025-11-27 at 9 58 43 PM" src="https://github.com/user-attachments/assets/e451090f-825d-4537-95dc-dc0719ff5163" />
 <img width="1375" height="914" alt="Screenshot 2025-11-27 at 9 59 05 PM" src="https://github.com/user-attachments/assets/b3496124-5851-4804-9b8e-8a737edcb308" />
