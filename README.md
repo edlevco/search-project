@@ -1,3 +1,6 @@
+# Link to Hugging Face
+https://huggingface.co/spaces/Edlevco/BinarySearchProjectCISC121
+
 # search-project
 CISC 121 001 - Project 1 - Binary Search Algorithm
 
