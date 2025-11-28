@@ -191,61 +191,8 @@ def generate_random_array():
     arr = sorted(random.sample(range(1, 101), 20))
     return ",".join(str(x) for x in arr)
 
-green_css = """
-/* Whole page background */
-body {
-    background-color: #0d1b0d !important;  /* deep forest green */
-    color: #d0e8d0 !important;  /* soft light green text */
-}
-
-/* Main Gradio container */
-.gradio-container {
-    background-color: #0d1b0d !important;
-}
-
-/* Input components (textbox, number box) */
-textarea, input[type=text], input[type=number] {
-    background-color: #132a13 !important;  /* very calm dark green */
-    border: 2px solid #2e4f2e !important;
-    color: #d0e8d0 !important;  /* text inside */
-    border-radius: 6px !important;
-}
-
-/* Buttons */
-button {
-    background-color: #1b5e20 !important;   /* dark, muted green */
-    color: #e8f5e9 !important;              /* pale green/white text */
-    border-radius: 8px !important;
-    border: 1px solid #2e7d32 !important;
-    padding: 10px !important;
-    font-weight: bold !important;
-}
-
-/* Button hover */
-button:hover {
-    background-color: #2e7d32 !important;  /* slightly brighter green */
-}
-
-/* Panel backgrounds (Rows, Columns, Blocks) */
-.gr-box, .gr-panel {
-    background-color: #0f2010 !important;  /* darker green/black */
-    border: 1px solid #1b3a1b !important;
-}
-
-/* Markdown text */
-.gr-markdown {
-    color: #d0e8d0 !important;
-}
-
-/* Image border */
-img {
-    border: 3px solid #1b5e20 !important;
-    border-radius: 10px !important;
-}
-"""
-
-## This is how the cite is planned out and visualized
-with gr.Blocks(css=green_css, title="Binary Search Helper") as demo:
+## This is how the site is planned out and visualized
+with gr.Blocks(title="Binary Search Helper") as demo:
 
     gr.Markdown("## Binary Search Helper\nChoose LEFT, RIGHT, or FOUND at each step. Get feedback!")
 
